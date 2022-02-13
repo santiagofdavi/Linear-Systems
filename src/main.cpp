@@ -58,6 +58,14 @@ int main(){
 
     }
 
+    for(unsigned i = 0; i < ordem; i++){
+
+        delete(matrix[i]);
+
+    }
+
+    delete(matrix);
+
     return 0;
 
 }
